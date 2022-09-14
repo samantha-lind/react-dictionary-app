@@ -19,7 +19,7 @@ export default function Dictionary() {
     axios.get(apiUrl).then(handleResponse);
   }
 
-  https: return (
+  return (
     <div className="search-content">
       <form onSubmit={search}>
         <input
