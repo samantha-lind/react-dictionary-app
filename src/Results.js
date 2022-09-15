@@ -5,15 +5,17 @@ export default function Results(props) {
   if (props.results) {
     console.log(props.results);
     return (
-      <div>
-        <h2>{props.results.word}</h2>
-        {props.results.meanings.map(function (meaning, index) {
-          return (
-            <div key={index}>
-              <Meaning meaning={meaning} />
-            </div>
-          );
-        })}
+      <div className="results-wrapper">
+        <div>
+          <h2>{props.results.word}</h2>
+          {props.results.meanings.map(function (meaning, index) {
+            return (
+              <div key={index}>
+                <Meaning meaning={meaning} />
+              </div>
+            );
+          })}
+        </div>
       </div>
     );
   } else {
