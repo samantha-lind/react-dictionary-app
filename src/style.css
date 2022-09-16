@@ -66,8 +66,8 @@ input {
   justify-content: flex-start;
 }
 
-.meaning, .images {
-  width: 50%;
+.meaning {
+  width: 80%;
   border-radius: 5px;
   background-color: #f9f9f9;
   margin: 20px;
