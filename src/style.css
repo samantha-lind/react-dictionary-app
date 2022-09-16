@@ -26,6 +26,7 @@ p {
 .footer {
   margin-top: 10px;
   font-size: 12px;
+  padding-bottom: 20px;
 }
 
 input {
@@ -67,7 +68,7 @@ input {
 }
 
 .meaning {
-  width: 80%;
+  width: 100%;
   border-radius: 5px;
   background-color: #f9f9f9;
   margin: 20px;

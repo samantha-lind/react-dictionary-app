@@ -9,7 +9,15 @@ function App() {
       </main>
       <Dictionary />
       <footer className="footer">
-        This is an open-source project coded by Samantha Lind
+        This is an{" "}
+        <a
+          href="https://github.com/samantha-lind/react-dictionary-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-source project
+        </a>{" "}
+        coded by Samantha Lind
       </footer>
     </div>
   );
