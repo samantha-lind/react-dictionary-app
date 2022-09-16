@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <main className="main-content">
         <h1 className="page-title">Dictionary</h1>
-        <Dictionary />
       </main>
+      <Dictionary />
       <footer className="footer">
         This is an open-source project coded by Samantha Lind
       </footer>

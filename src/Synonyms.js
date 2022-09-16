@@ -3,9 +3,9 @@ import React from "react";
 export default function Synonyms(props) {
   if (props.synonyms) {
     return (
-      <ul className="synonyms">
+      <ul>
         {props.synonyms.map(function (synonym, index) {
-          return <li key={index}>{synonym}</li>;
+          return <li key={index}> {synonym} </li>;
         })}
       </ul>
     );
