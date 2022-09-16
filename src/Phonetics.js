@@ -10,7 +10,9 @@ export default function Phonetics(props) {
   return (
     <span className="phonetics">
       {text}
-      <a href={audio}>{element}</a>
+      <a href={audio} target="_blank">
+        {element}
+      </a>
     </span>
   );
 }
