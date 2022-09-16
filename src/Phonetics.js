@@ -11,7 +11,7 @@ export default function Phonetics(props) {
   return (
     <span className="phonetics">
       {text}
-      <a href={audio} target="_blank" className="audio-file">
+      <a href={audio} target="_blank" rel="noreferrer" className="audio-file">
         {audioFile}
       </a>
     </span>
